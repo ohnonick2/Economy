@@ -1,0 +1,13 @@
+name: Economy
+version: '1.0'
+main: de.ohnonick2.main.Main
+api-version: 1.16
+website: https://github.com/ohnonick2/Economy/
+author: ohnonick2
+
+commands:
+  money:
+  addmoney:
+  setmoney:
+  pay:
+  removemoney:

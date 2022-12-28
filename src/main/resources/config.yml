@@ -1,0 +1,49 @@
+###################################################################################################################################################################
+# Dies ist die Hauptdatei für die Nachrichten. Du kannst es nach belieben ändern. Du kannst Farbcodes (&) verwenden                                               #
+# Du kannst auch Platzhalter verwenden. Diese sind:                                                                                                               #
+# %prefix% - Der Prefix standartmäßig &8[&6Economy&8] &7
+# %player% - Der Spielername                                                                                                                                     #
+# %target% - Der angegebene Spieler                                                                                                                                      #
+# %amount% - Das Geld                                                                                                                                            #
+#
+
+# Nachrichten
+
+
+
+PREFIX: '&8[&6Economy&8] &7'
+NO_PERMISSION: 'Du hast keine Berechtigung für diesen Befehl!'
+NO_NEGATIVE_NUMBER: 'Du kannst keine negativen Zahlen angeben!'
+NO_PLAYER: 'Du musst ein Spieler sein!'
+NO_NUMBER: 'Du musst eine Zahl angeben!'
+NO_ACCOUNT: 'Dieser Spieler hat kein Konto!'
+NO_MONEY: 'Du hast nicht genug Geld!'
+PLAYER_NOT_ONLINE: 'Dieser Spieler (%player%) war noch nie online!'
+
+
+
+# Befehle
+Commands:
+  addmoney_usage: '/addmoney <Spieler> Betrag'
+  addmoney_success: 'Du hast dem Spieler %player% %amount% Dollar hinzugefügt!'
+
+  removemoney_usage: '/removemoney <Spieler> <Betrag>'
+  removemoney_success: 'Du hast dem Spieler %player% %amount% Dollar abgezogen!'
+
+  setmoney_usage: '/setmoney <Spieler> <Betrag>'
+  setmoney_success_self: 'Du hast dein Kontostand auf %amount% gesetzt!'
+  setmoney_success_other: 'Du hast den Kontostand von %player% auf %amount% gesetzt!'
+
+  pay_usage: '/pay <Spieler> <Betrag>'
+  pay_success_target: 'Der Spieler %player% hat dir %amount% gesendet!'
+  pay_success_sender: 'Du hast dem Spieler %player% %amount% gesendet!'
+  pay_no_money: 'Du hast nicht genug Geld!'
+  pay_no_self: 'Du kannst dir nicht selbst Geld senden!'
+
+  money_usage: '/money <Spieler>'
+  money_success: 'Der Spieler %player% hat %amount%'
+  money_success_self: 'Du hast ein Kontostand von %amount%'
+  money_success_other: 'Der Spieler %player% hat ein Kontostand von %amount%'
+
+
+
