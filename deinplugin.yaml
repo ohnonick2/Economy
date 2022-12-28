@@ -2,7 +2,7 @@ specVersion: 1
 type: plugin
 name: Economy
 authors: ohnonick2
-download: https://github.com/ohnonick2/Economy/releases/download/v1.0.0-Alpha/ohnonick2-EconomyPlugin.jar
+download: https://github.com/ohnonick2/Economy/releases/download/1.0.0/ohnonick2-EconomyPlugin.jar
 supportedPlatforms: paper
 supportedGameVersions: ab 16.5
 category: economy
