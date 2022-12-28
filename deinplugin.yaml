@@ -1,0 +1,28 @@
+specVersion: 1
+type: plugin
+name: Economy
+authors: ohnonick2
+download: https://github.com/ohnonick2/Economy/releases/download/v1.0.0-Alpha/ohnonick2-EconomyPlugin.jar
+supportedPlatforms: paper
+supportedGameVersions: ab 16.5
+category: economy
+introduction: 
+  de: Ein simples Geld Plugin
+  en: An improved plugin list with numerous settings
+description:  - Mit diesem Plugin kannst du Geld auf deinen Server verbringen. Du kannst das Geld ganz einfach tauschen. Der Maximale Wert liegt bei 1.7*10^308. Die Kontostände werden in der money.yml gespeichert. Du kannst die Nachrichten in der config.yml ändern. Die Commands sind: 
+/addmoney <Spieler> Betrag
+/setmoney <Spieler> Betrag
+/money <Spieler>
+/pay <Spieler> Betray
+/removemoney <Spieler> Betrag
+Permission 
+/money braucht man kein Recht. Nur, wenn man den Kontostand von einem anderen Spieler sehen möchte benötigt man das Recht (money.see.other).
+/setmoney -> money.set
+/pay braucht man kein Recht. 
+/removemoney -> money.remove . Wenn man den Kontostand eines anderen Spielers um einen bestimmten Wert zurück setzen möchte braucht man das Recht (money.remove.other).
+installation: 
+    Herunterladen der Plugin-Datei
+    Ablegen der Datei im Plugins-Ordner des Servers
+    Neustarten des Servers
+tags: economy
+icon: https://github.com/ohnonick2/Economy/blob/main/coins.png
